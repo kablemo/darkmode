@@ -1,0 +1,42 @@
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #333 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #000 !important;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] label.custom-control-label::after {
+		background-color: white;
+}
+
+
+[data-theme="dark"] label.custom-control-label::before {
+		background-color: #2ecc71;
+		border: 1px solid #2ecc71;
+}
+
+[data-theme="dark"] h2 {
+	color: #2ecc71;
+}
+
+[data-theme="dark"] .card {
+	background-color: #272727;
+}
+
+[data-theme="dark"] .card p {
+	color: white;
+}
+
+[data-theme="dark"] footer {
+	background-color: #272727;
+}
